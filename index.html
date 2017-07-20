@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <title>Form</title>
+</head>
+
+<body>
+  <form action="#" method="post" class="form">
+    <div class="form__row">
+      <input class="form__input" type="text" name="first-name" placeholder="First name" pattern="[A-Za-z]+">
+      <input class="form__input" type="text" name="last-name" placeholder="Last name" pattern="[A-Za-z]+">
+    </div>
+    <div class="form__row">
+      <input class="form__input" type="email" name="email" placeholder="Email address">
+    </div>
+    <div class="form__row">
+      <textarea class="form__input" name="about" cols="30" rows="3" placeholder="Something about you"></textarea>
+    </div>
+    <div class="form__row">
+      <input class="form__input" type="password" name="password" placeholder="Password">
+      <input class="form__input" type="password" name="confirm-password" placeholder="Confirm password">
+    </div>
+    <label class="form__label">Select your country</label>
+    <select class="form__row" name="country">
+      <option value=”Belgium” selected>Belgium</option>
+	    <option value=”Czech_Republic”>Czech Republic</option>
+      <option value=”Denmark”>Denmark</option>
+      <option value=”France”>France</option>
+      <option value=”Greece”>Greece</option>
+      <option value=”Hungary”>Hungary</option>
+      <option value=”Ireland”>Ireland</option>
+      <option value=”Italy”>Italy</option>
+      <option value=”Ukraine”>Ukraine</option>
+    </select>
+    <div class="form__block">
+      <input type="radio" name="gender" value="Male" checked> Male
+      <input type="radio" name="gender" value="Female"> Female
+    </div>
+    <div class="form__row">
+      <button class="form__submit" type="submit">Sign up for free</button>
+    </div>
+    <div class="form__row">
+      <button class="form__reset" type="reset">Reset form</button>
+    </div>
+    <div class="form__subscribe">
+      <input type="checkbox" name="signup" value="signup-for-newsletter"> Sign up for our newsletter
+    </div>
+  </form>
+</body>
+
+</html>
