@@ -24,21 +24,27 @@
       <input class="form__input" type="password" name="password" placeholder="Password">
       <input class="form__input" type="password" name="confirm-password" placeholder="Confirm password">
     </div>
-    <label class="form__label">Select your country</label>
-    <select class="form__row" name="country">
-      <option value=”Belgium” selected>Belgium</option>
-	    <option value=”Czech_Republic”>Czech Republic</option>
-      <option value=”Denmark”>Denmark</option>
-      <option value=”France”>France</option>
-      <option value=”Greece”>Greece</option>
-      <option value=”Hungary”>Hungary</option>
-      <option value=”Ireland”>Ireland</option>
-      <option value=”Italy”>Italy</option>
-      <option value=”Ukraine”>Ukraine</option>
-    </select>
+    <div class="form__selection">
+      <label for="countries" class="form__label">Select your country</label>
+      <select name="country" id="countries">
+        <option value=”Belgium” selected>Belgium</option>
+  	    <option value=”Czech_Republic”>Czech Republic</option>
+        <option value=”Denmark”>Denmark</option>
+        <option value=”France”>France</option>
+        <option value=”Greece”>Greece</option>
+        <option value=”Hungary”>Hungary</option>
+        <option value=”Ireland”>Ireland</option>
+        <option value=”Italy”>Italy</option>
+        <option value=”Ukraine”>Ukraine</option>
+      </select>
+    </div>
     <div class="form__block">
-      <input type="radio" name="gender" value="Male" checked> Male
-      <input type="radio" name="gender" value="Female"> Female
+      <label>
+        <input type="radio" name="gender" value="Male" checked> Male
+      </label>
+      <label>
+        <input type="radio" name="gender" value="Female"> Female
+      </label>
     </div>
     <div class="form__row">
       <button class="form__submit" type="submit">Sign up for free</button>
@@ -47,7 +53,9 @@
       <button class="form__reset" type="reset">Reset form</button>
     </div>
     <div class="form__subscribe">
-      <input type="checkbox" name="signup" value="signup-for-newsletter"> Sign up for our newsletter
+      <label>
+        <input type="checkbox" name="signup" value="signup-for-newsletter"> Sign up for our newsletter
+      </label>
     </div>
   </form>
 </body>

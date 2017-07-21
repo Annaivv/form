@@ -21,7 +21,8 @@ body{
   background: #ffffff;
 }
   /* Row */
-  .form__row{
+  .form__row,
+  .form__selection{
     display: flex;
     width: 100%;
     justify-content: center;
@@ -88,20 +89,35 @@ body{
       border-color: #7a7b7f;
     }
 
+    .form__selection{
+      justify-content: space-between;
+      background-color: #eee;
+      margin: 15px 0;
+      padding-bottom: 10px;
+      border-radius: 4px;
+    }
+
     .form__label{
-      display: block;
-      margin-top: 10px;
-      padding: 10px 0px 10px 5px;
+      display: inline-block;
+      margin: 10px;
+      padding: 0px 0px 10px 5px;
       color: #ea355a;
       font-family: Arial;
       font-weight: bolder;
       margin-bottom: -12px;
     }
 
+  #countries{
+    margin: 10px 55px 0 0;
+    border-radius: 4px;
+  }
+
     .form__block{
       display: flex;
-      width: 40%;
-      margin: 15px 30% 0px;
+      width: 100%;
+      padding: 10px 50px;
+      border-radius: 4px;
+      background-color: #eee;
       justify-content: space-around;
       font-family: Arial, sans-serif;
     }
