@@ -95,8 +95,6 @@ body{
       color: #ea355a;
       font-family: Arial;
       font-weight: bolder;
-      /*border: 2px solid #b1a9ad;
-      border-radius: 4px;*/
       margin-bottom: -12px;
     }
 
@@ -109,8 +107,6 @@ body{
     }
 
     .form__subscribe{
-      /*border: 2px solid #b1a9ad;
-      border-radius: 4px;*/
       font-family: Arial, sans-serif;
       margin-top: 10px;
       padding: 10px;
