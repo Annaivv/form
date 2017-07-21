@@ -92,10 +92,11 @@ body{
       display: block;
       margin-top: 10px;
       padding: 10px 0px 10px 5px;
+      color: #ea355a;
       font-family: Arial;
-      font-weight: 500;
-      border: 2px solid #b1a9ad;
-      border-radius: 4px;
+      font-weight: bolder;
+      /*border: 2px solid #b1a9ad;
+      border-radius: 4px;*/
       margin-bottom: -12px;
     }
 
@@ -108,11 +109,11 @@ body{
     }
 
     .form__subscribe{
-      border: 2px solid #b1a9ad;
-      border-radius: 4px;
+      /*border: 2px solid #b1a9ad;
+      border-radius: 4px;*/
       font-family: Arial, sans-serif;
       margin-top: 10px;
-      padding: 10px 5px;
+      padding: 10px;
     }
 
     .form__reset{
